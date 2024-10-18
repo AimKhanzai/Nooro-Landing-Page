@@ -1,0 +1,554 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0;
+}
+.mytextcolor {
+  color: #121212;
+}
+.mymobdp{
+  display: none !important;
+}
+.mydeskdp{
+  display: block;
+}
+button.slick-next.slick-arrow {
+  background: url(./assets/Chevron.svg) 0 0 / 100% no-repeat;
+}
+button.slick-next.slick-arrow::before{
+  content: "";
+}
+button.slick-prev.slick-arrow::before{
+  content: "";
+}
+.slick-next {
+  right: 44%;
+}
+.slick-prev {
+  left: 45%;
+}
+.slick-next, .slick-prev {
+  top: unset;
+  width: 50px;
+  height: 50px;
+  bottom: -100px !important;
+}
+button.slick-prev.slick-arrow {
+  background: url(./assets/Chevron\ \(1\).svg) 0 0 / 100% no-repeat;
+}
+/* .slider .slick-arrow.slick-next::before {
+  content: "";
+  
+} */
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* main headline */
+.mainheadline {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+  letter-spacing: 0.01em;
+  color: #121212;
+}
+.mainheadbg {
+  background: rgba(230, 233, 53, 1);
+}
+.mainheadlinep {
+  padding: 13px 0;
+}
+
+/* Header */
+.liststyle {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.arrow {
+  left: 71%;
+  bottom: 0;
+}
+.satistext {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+.satisnum {
+  color: #ab926a;
+  font-weight: 700;
+}
+.heroheading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  color: #121212;
+  padding: 0 26px 0 0;
+}
+.herolitext {
+  font-size: 18px;
+  line-height: 21.94px;
+  color: #121212;
+}
+.litickspace {
+  padding-left: 12px;
+}
+.limb {
+  margin-bottom: 16px;
+}
+.btntext {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+}
+.btnhead {
+  padding: 20px 27px;
+  border-radius: 5px;
+  background: #56766b;
+  margin-top: 32px;
+  display: block;
+  width: fit-content;
+}
+.emoji {
+  bottom: 3px;
+}
+.arroww{
+  width: 100%;
+}
+.docrecomhead {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+}
+.docrecompara {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.docrecomname {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.docrecomtextbox {
+  margin: auto 0px auto 16px;
+}
+.docrecombox {
+  background: #f5f5f5;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+.docrecommb {
+  margin-bottom: 12px;
+}
+.section {
+  margin-top: 3.75rem;
+}
+
+/* Moneyback */
+.moneybackhead {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+}
+.moneybacktext {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.moneybackbg {
+  background: #e1f4f3;
+}
+.moneybackconp {
+  padding: 32px 0;
+}
+.moneyimgmb {
+  margin-bottom: 16px;
+}
+.moneyheadmb {
+  margin-bottom: 8px;
+}
+.moneybacktextbox {
+  padding: 0 12px;
+}
+
+/* Foot Masager */
+.conshadow {
+  border: 1px solid #dfdfdf;
+  box-shadow: 0px 4px 15px 0px #09413c0f;
+  padding: 32px;
+  margin: 0;
+}
+.seconhead {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.massheading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.masslitext {
+  font-size: 16px;
+  line-height: 19.5px;
+}
+.massmb {
+  margin-bottom: 20px;
+}
+
+/* Steps */
+.stepsmainheading {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39.2px;
+}
+.stepsheading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.stepstext {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+}
+.setpsbg {
+  background: #eae4da;
+}
+.stepsmb {
+  margin-bottom: 40px;
+}
+.stepssecp {
+  padding: 64px 0;
+}
+/* Slider Section */
+.slidermainhead {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39.2px;
+}
+.slideshadowborder {
+  box-shadow: 0px 4px 15px 0px #09413c0f;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+}
+.slidecardh {
+  min-height: 192px;
+}
+.slidecardname {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+}
+.slidecardtext {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.mycardbodyp {
+  padding: 24px 16px;
+}
+.slick-slide {
+  padding: 0 10px;
+}
+
+/* Kit Section */
+.kitbg {
+  background: #cfecda;
+}
+.kithead {
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 39.6px;
+}
+.kitheadmb {
+  margin-bottom: 24px;
+}
+.kitnum {
+  width: 27px;
+  height: 27px;
+  border-radius: 100%;
+  background: #508b85;
+}
+.kitnumtext {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 12px;
+  text-align: center;
+}
+.kitlip {
+  padding: 10.5px 0;
+}
+.kitlitextml {
+  margin-left: 16px;
+}
+.kitlitext {
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* FAQ */
+.faqmainhead {
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 39.6px;
+}
+.faqques {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 28.5px;
+}
+.faqans {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.faq .container {
+  max-width: 860px;
+}
+
+/* Footer */
+.footbg {
+  background: #f6f3ea;
+  padding: 40px 0;
+}
+.foottext {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27.2px;
+}
+.footlogomb {
+  margin-bottom: 32px;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .section {
+    margin-top: 24px;
+  }
+  .mainheadline {
+    font-size: 13px;
+    line-height: 15.85px;
+  }
+  .heroheading {
+    font-size: 23px;
+    line-height: 32.2px;
+  }
+  /* .btnhead {
+    width: 100%;
+  } */
+  .kitheadmb {
+    margin-bottom: 16px;
+  }
+  .litickspace {
+    padding-left: 8px;
+  }
+  .mymobdp{
+    display: block !important;
+}
+.mydeskdp{
+    display: none;
+}
+.ulmb{
+    margin-bottom: 24px;
+}
+.docrecombox {
+    margin-top: 20px;
+  }
+  .docrecomtextbox {
+    margin: 16px 0px 16px 16px;
+  }
+  .docrecomhead {
+    font-size: 16px;
+  }
+  .btnhead {
+    padding: 20px 10px;
+  }
+  .conshadow{
+    padding: 32px 0;
+  }
+  .monebackmobp{
+    padding-bottom: 32px;
+  }
+  .massheading {
+    font-size: 20px;
+    padding: 20px 5px 0 0;
+    line-height: 30px;
+  }
+  .footmasmb{
+    margin-bottom: 8px;
+  }
+  .seconhead {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .massliboxmb0{
+    margin-bottom: 0;
+  }
+  .stepsmobmt{
+    margin-top: 32px;
+  }
+  .moblastlim0{
+    margin-bottom: 0;
+  }
+  .mobulm0{
+    margin-bottom: 0;
+  }
+  /* .stepsmobp{
+    padding: 32px 10px;
+  } */
+  .stepssecp {
+    padding: 32px 16px;
+  }
+  .stepsmainheading {
+    font-size: 23px;
+    line-height: 32.2px;
+  }
+  .stepsmobboxhead{
+    padding: 0px 6px;
+  }
+  .stepsmb {
+    margin-bottom: 32px;
+  }
+  .stepsheading {
+    font-size: 32px;
+    line-height: 44.8px;
+  }
+  .stepstext {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.8px;
+  }
+  .mobstepsm0{
+    margin-bottom: 0;
+  }
+  .slidermainhead {
+    font-size: 23px;
+    line-height: 32.2px;
+  }
+  .slidermobpx0{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .slick-slide{
+  padding: 0 1rem;
+  }
+  .slidecardh{
+    min-height: 264px;
+  }
+  .kithead {
+    font-size: 23px;
+    line-height: 27.6px;
+  }
+  .kitmobliw{
+    width: fit-content;
+  }
+  .faqmainhead {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 27.6px;
+  }
+  .faqmobmbhead{
+    margin-bottom: 24px;
+  }
+  .faqpx0{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footmoblogo{
+    width: 96px;
+  }
+  .foottext {
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+}
+
+@media (max-width: 388px){
+  .btntext {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1199px) and (min-width: 992px){
+  .heroheading {
+    font-size: 26.5px;
+    line-height: 38.8px;
+  }
+  .herolitext {
+    font-size: 15px;
+  }
+  .docrecomhead {
+    font-size: 16px;
+    line-height: 15.2px;
+  }
+  .docrecompara {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .docrecomname {
+    font-size: 9px;
+    line-height: 7.5px;
+  }
+  .mymobdp{
+    display: none;
+}
+.arrow {
+  left: 88%;
+  bottom: 32px;
+}
+.arroww{
+  width: 65px;
+}
+.btnhead {
+  margin-top: 23px;
+}
+.slick-slide {
+  padding: 0 7px;
+}
+  .kitmobliw{
+    width: fit-content;
+  }
+  .slidecardh {
+    min-height: 264px;
+  }
+}
+@media (max-width: 1400px) and (min-width: 1200px){
+  .docrecompara {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .docrecomname {
+    font-size: 12px;
+    line-height: 13.5px;
+  }
+  .mymobdp{
+    display: none;
+}
+.arrow {
+  left: 77%;
+  bottom: 5px;
+}
+.arroww{
+  width: 125px;
+}
+.slick-slide {
+  padding: 0 7px;
+}
+  .slidecardh {
+    min-height: 264px;
+  }
+}
+@media (max-width: 480px){
+  .btnhead{
+    width: 100%;
+  }
+}
